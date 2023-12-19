@@ -1,0 +1,18 @@
+{
+  "root": "www/",
+  "clean_urls": true,
+  "https_only": true,
+  "routes": {
+    "/assets/*": "/assets/",
+    "/build/*": "/build/",
+    "/**": "index.html"
+  },
+  "headers": {
+    "/**": {
+      "Cache-Control": "public, max-age=600"
+    },
+    "/build/p-*.js": {
+      "Cache-Control": "public, max-age=86400"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+component-refresher ion-content {
+  user-select: none;
+}
+
+component-refresher ion-item {
+  --padding-start: 8px;
+}
+
+component-refresher .dot {
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  align-self: start;
+  margin: 16px 8px 16px 9px;
+}
+
+component-refresher .md .dot {
+  margin-top: 17px;
+}
+
+component-refresher .dot-unread {
+  background: var(--ion-color-primary);
+}
+
+component-refresher .unread {
+  background-color: #3684ff;
+}
+
+component-refresher ion-item h2,
+component-refresher ion-item h3 {
+  font-weight: 500 !important;
+}
